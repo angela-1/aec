@@ -36,7 +36,7 @@ namespace Appaec2
         {
             //MessageBox.Show(listBox.SelectedItem, "see");
 
-            if (listBox.Items.Count > 0)
+            if (listBox.Items.Count > 0 && listBox.SelectedIndex > -1)
             {
                 ALibModel lm = listBox.SelectedItem as ALibModel;
                 string searchStr = lm.Tag;
