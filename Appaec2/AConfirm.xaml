@@ -1,0 +1,28 @@
+﻿<Page x:Class="Appaec2.AConfirm"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Appaec2"
+      mc:Ignorable="d" 
+      d:DesignHeight="376" d:DesignWidth="308"
+      Title="AConfirm">
+
+    <Grid >
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="cancel_button" Content="{DynamicResource StrUid_cancel}" HorizontalAlignment="Left" Margin="42,40,0,0" VerticalAlignment="Top" Width="80" Height="25" Grid.Row="2" Style="{DynamicResource BaseButton}" Click="cancel_button_Click"/>
+            <Button x:Name="good_button" Content="{DynamicResource StrUid_good}" HorizontalAlignment="Left" Margin="168,40,0,0" VerticalAlignment="Top" Width="80" Height="25" Grid.Row="2" Style="{DynamicResource BaseButton}" Click="good_button_Click"/>
+            <TextBlock x:Name="sure_textBlock" HorizontalAlignment="Left" Margin="42,13,0,93" TextWrapping="Wrap" Text="{DynamicResource StrUid_sure}" VerticalAlignment="Center"/>
+            <TextBlock x:Name="account_textBlock" HorizontalAlignment="Left" Margin="42,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="21.333"/>
+        </Grid>
+    </Grid>
+
+</Page>

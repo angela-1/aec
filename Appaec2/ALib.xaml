@@ -1,0 +1,54 @@
+﻿<Page x:Uid="Page_1" x:Class="Appaec2.ALib"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Appaec2"
+      mc:Ignorable="d" 
+      d:DesignHeight="327" d:DesignWidth="308"
+      Title="ALibrary">
+
+    <Grid x:Name="grid" x:Uid="Grid_1">
+        <ListBox x:Uid="listBox" x:Name="listBox" HorizontalAlignment="Left" Margin="20,0,0,0" VerticalAlignment="Top" ItemsSource="{Binding Accountlist}" ItemTemplate="{DynamicResource ListBoxDataTemplate}" ItemContainerStyle="{DynamicResource ListBoxItemStyle}" Width="288" Height="327">
+            <ListBox.DataContext>
+                <local:ALibViewModel x:Uid="local:ALibViewModel_1"/>
+            </ListBox.DataContext>
+
+        </ListBox>
+        <StackPanel HorizontalAlignment="Left" Height="327" Margin="0,0,0,0" VerticalAlignment="Top" Width="20">
+            <Button Content="#" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="A" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="B" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="C" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="D" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="E" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="F" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="G" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="H" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="I" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="J" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="K" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="L" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="M" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="N" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="O" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="P" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="Q" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="R" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="S" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="T" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="U" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="V" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="W" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="X" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Button Content="Y" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+            <Button Content="Z" Style="{DynamicResource CenterButtonStyle}" FontSize="8" BorderBrush="{x:Null}" BorderThickness="0" Click="char_button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20"/>
+
+        </StackPanel>
+
+
+
+    </Grid>
+
+
+</Page>

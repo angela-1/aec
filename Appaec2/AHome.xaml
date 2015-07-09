@@ -1,0 +1,46 @@
+﻿<Page x:Uid="Page_1" x:Class="Appaec2.AHome"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Appaec2"
+      mc:Ignorable="d" 
+      d:DesignHeight="376" d:DesignWidth="308"
+      Title="AHome">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48*"/>
+            <RowDefinition Height="328*"/>
+        </Grid.RowDefinitions>
+
+
+        <Grid Background="#FFE0E0E0" Margin="0">
+            <Grid.RowDefinitions>
+                <RowDefinition x:Uid="RowDefinition_4"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition x:Uid="ColumnDefinition_1" Width="12*"/>
+                <ColumnDefinition Width="53*"/>
+                <ColumnDefinition x:Uid="ColumnDefinition_2" Width="12*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Uid="set_button" x:Name="set_button" Content="&#xE115;" Grid.Column="2" Margin="5,10" RenderTransformOrigin="-0.244,0.36" FontFamily="Segoe UI Symbol" Click="set_button_Click" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Style="{DynamicResource BaseButton}" FontSize="16"/>
+            <TextBox x:Uid="search_textBox" x:Name="search_textBox" HorizontalAlignment="Stretch" Margin="10" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Style="{DynamicResource SearchTextBoxStyle}" TextChanged="search_textBox_TextChanged" KeyUp="search_textBox_KeyUp" GotFocus="search_textBox_GotFocus" PreviewMouseDown="search_textBox_PreviewMouseDown" LostFocus="search_textBox_LostFocus" Grid.Column="1"/>
+            <Button x:Uid="search_button" x:Name="search_button" Content="&#xE11A;" HorizontalAlignment="Left" Margin="10,10,0,10" Width="28" Style="{DynamicResource LeftButtonStyle}" FontFamily="Segoe UI Symbol" Click="search_button_Click" BorderBrush="{x:Null}" FontSize="16" Grid.Column="1"/>
+            <Grid x:Uid="cleargrid" x:Name="cleargrid" HorizontalAlignment="Right" Margin="0,10,10,10" Width="28" Grid.Column="1"/>
+            <Button x:Name="add_button" Content="&#xE109;" Style="{DynamicResource BaseButton}" FontFamily="Segoe UI Symbol" Click="add_button_Click" Margin="5,10"/>
+        </Grid>
+
+        <Frame x:Name="lib_frame" Content="Frame" HorizontalAlignment="Left" Height="327" Margin="0,1,0,0" Grid.Row="1" VerticalAlignment="Top" Width="308" NavigationUIVisibility="Hidden" Background="White"/>
+        <GridSplitter x:Uid="gridSplitter" x:Name="gridSplitter" HorizontalAlignment="Stretch" Height="1" VerticalAlignment="Bottom" Margin="0,0,0,327" Grid.Row="1">
+            <GridSplitter.Background>
+                <SolidColorBrush Color="#FFB0B0B0" x:Uid="SolidColorBrush_2"/>
+            </GridSplitter.Background>
+        </GridSplitter>
+
+    </Grid>
+
+
+
+
+</Page>

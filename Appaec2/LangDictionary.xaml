@@ -1,0 +1,54 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Appaec2"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+
+<sys:String x:Key="StrUid_tag">Tag:</sys:String>
+<sys:String x:Key="StrUid_category">Category:</sys:String>
+<sys:String x:Key="StrUid_url">URL:</sys:String>
+<sys:String x:Key="StrUid_user">User:</sys:String>
+<sys:String x:Key="StrUid_password">Password:</sys:String>
+<sys:String x:Key="StrUid_phone">Phone:</sys:String>
+<sys:String x:Key="StrUid_mail">Mail:</sys:String>
+<sys:String x:Key="StrUid_notes">Notes:</sys:String>
+    <sys:String x:Key="StrUid_lastmodified">Lastmoidfied:</sys:String>
+    <sys:String x:Key="StrUid_initialization">DB Config</sys:String>
+<sys:String x:Key="StrUid_changepassword">Password</sys:String>
+<sys:String x:Key="StrUid_export">Export</sys:String>
+<sys:String x:Key="StrUid_initdb">Init DataBase</sys:String>
+<sys:String x:Key="StrUid_dbpath">DB:</sys:String>
+<sys:String x:Key="StrUid_key">Key:</sys:String>
+<sys:String x:Key="StrUid_done">Done</sys:String>
+<sys:String x:Key="StrUid_singout">Logout</sys:String>
+<sys:String x:Key="StrUid_singin">Sign In</sys:String>
+<sys:String x:Key="StrUid_aec">Accounts Encrypt</sys:String>
+<sys:String x:Key="StrUid_library">Library</sys:String>
+<sys:String x:Key="StrUid_config">Config</sys:String>
+<sys:String x:Key="StrUid_oldkey">Old key:</sys:String>
+<sys:String x:Key="StrUid_newkey">New key:</sys:String>
+<sys:String x:Key="StrUid_confirm">Confirm:</sys:String>
+<sys:String x:Key="StrUid_exportaccount">Export Accounts</sys:String>
+    <sys:String x:Key="StrUid_account">Account</sys:String>
+    <sys:String x:Key="StrUid_language">Language</sys:String>
+    <sys:String x:Key="StrUid_about">About</sys:String>
+    <sys:String x:Key="StrUid_langen">English</sys:String>
+    <sys:String x:Key="StrUid_langzh">中文</sys:String>
+    <sys:String x:Key="StrUid_chooselang">Choose UI language</sys:String>
+    <sys:String x:Key="StrUid_labellang">Language:</sys:String>
+    <sys:String x:Key="StrUid_wrongkey">Wrong key</sys:String>
+    <sys:String x:Key="StrUid_shutdown">ShutDown</sys:String>
+    <sys:String x:Key="StrUid_encryptdb">Encrypting DB, please wait...</sys:String>
+
+    <sys:String x:Key="StrUid_quitwarning">Unless you want to throw out all the data, DO NOT click button bottom.</sys:String>
+    <sys:String x:Key="StrUid_version">1.0</sys:String>
+    <sys:String x:Key="StrUid_author">Author: ZHAO Peng</sys:String>
+    <sys:String x:Key="StrUid_oldkeywrong">Wrong old key</sys:String>
+    <sys:String x:Key="StrUid_newkeynotequal">They are different you input new key twice</sys:String>
+<sys:String x:Key="StrUid_logouttip">Remove key and connection of DB</sys:String>
+    <sys:String x:Key="StrUid_sure">Are your sure to delete account ?</sys:String>
+    <sys:String x:Key="StrUid_good">OK</sys:String>
+    <sys:String x:Key="StrUid_cancel">Cancel</sys:String>
+    <sys:String x:Key="StrUid_warning">Warning</sys:String>
+    <sys:String x:Key="StrUid_noresult">No result for</sys:String>
+</ResourceDictionary>

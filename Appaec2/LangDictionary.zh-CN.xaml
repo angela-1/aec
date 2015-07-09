@@ -1,0 +1,53 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Appaec2"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+
+<sys:String x:Key="StrUid_tag">标签：</sys:String>
+<sys:String x:Key="StrUid_category">分类：</sys:String>
+<sys:String x:Key="StrUid_url">链接：</sys:String>
+<sys:String x:Key="StrUid_user">用户名：</sys:String>
+<sys:String x:Key="StrUid_password">密码：</sys:String>
+<sys:String x:Key="StrUid_phone">电话：</sys:String>
+<sys:String x:Key="StrUid_mail">电子邮件：</sys:String>
+<sys:String x:Key="StrUid_notes">备注：</sys:String>
+    <sys:String x:Key="StrUid_lastmodified">最后修改：</sys:String>
+<sys:String x:Key="StrUid_initialization">数据库</sys:String>
+<sys:String x:Key="StrUid_changepassword">修改密码</sys:String>
+<sys:String x:Key="StrUid_export">导出</sys:String>
+<sys:String x:Key="StrUid_initdb">初始化数据库</sys:String>
+<sys:String x:Key="StrUid_dbpath">数据库：</sys:String>
+<sys:String x:Key="StrUid_key">密钥：</sys:String>
+<sys:String x:Key="StrUid_done">完成</sys:String>
+<sys:String x:Key="StrUid_singout">注销</sys:String>
+<sys:String x:Key="StrUid_singin">登入</sys:String>
+<sys:String x:Key="StrUid_aec">Accounts Encrypt</sys:String>
+<sys:String x:Key="StrUid_library">库</sys:String>
+<sys:String x:Key="StrUid_config">设置</sys:String>
+<sys:String x:Key="StrUid_oldkey">旧密码：</sys:String>
+<sys:String x:Key="StrUid_newkey">新密码：</sys:String>
+<sys:String x:Key="StrUid_confirm">确认：</sys:String>
+    <sys:String x:Key="StrUid_exportaccount">导出账户</sys:String>
+    <sys:String x:Key="StrUid_account">账户</sys:String>
+    <sys:String x:Key="StrUid_language">语言</sys:String>
+    <sys:String x:Key="StrUid_about">关于</sys:String>
+    <sys:String x:Key="StrUid_langen">English</sys:String>
+    <sys:String x:Key="StrUid_langzh">中文</sys:String>
+    <sys:String x:Key="StrUid_chooselang">选择界面语言</sys:String>
+    <sys:String x:Key="StrUid_labellang">语言：</sys:String>
+    <sys:String x:Key="StrUid_wrongkey">密钥错误</sys:String>
+    <sys:String x:Key="StrUid_shutdown">关闭</sys:String>
+    <sys:String x:Key="StrUid_encryptdb">正在加密数据库，请稍候……</sys:String>
+    <sys:String x:Key="StrUid_quitwarning">除非你决定丢弃所有数据，否则不要按下这个按钮。</sys:String>
+    <sys:String x:Key="StrUid_version">1.0</sys:String>
+    <sys:String x:Key="StrUid_author">作者： 赵鹏</sys:String>
+    <sys:String x:Key="StrUid_oldkeywrong">旧密钥错误</sys:String>
+    <sys:String x:Key="StrUid_newkeynotequal">两次输入的新密码不相同</sys:String>
+    <sys:String x:Key="StrUid_logouttip">删除密钥文件，断开数据库连接</sys:String>
+    <sys:String x:Key="StrUid_sure">确定要删除账户吗?</sys:String>
+    <sys:String x:Key="StrUid_good">好</sys:String>
+    <sys:String x:Key="StrUid_cancel">取消</sys:String>
+    <sys:String x:Key="StrUid_warning">注意</sys:String>
+    <sys:String x:Key="StrUid_noresult">没有找到</sys:String>
+</ResourceDictionary>

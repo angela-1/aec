@@ -1,0 +1,68 @@
+﻿<Page x:Uid="Page_1" x:Class="Appaec2.BAccount"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Appaec2"
+      mc:Ignorable="d" 
+      d:DesignHeight="381" d:DesignWidth="308"
+      Title="BAccount">
+
+    <Grid x:Uid="Grid_1">
+        <Grid.RowDefinitions>
+            <RowDefinition x:Uid="RowDefinition_1" Height="48*"/>
+            <RowDefinition x:Uid="RowDefinition_2" Height="333*"/>
+        </Grid.RowDefinitions>
+
+        <Grid x:Uid="titlegrid" x:Name="titlegrid" Background="#FFF2F2F2" MouseLeftButtonDown="Grid_MouseLeftButtonDown">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition x:Uid="ColumnDefinition_1" Width="67*"/>
+                <ColumnDefinition x:Uid="ColumnDefinition_2" Width="182*"/>
+                <ColumnDefinition x:Uid="ColumnDefinition_3" Width="65*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Uid="ok_button" x:Name="ok_button" Content="&#xE10B;" Grid.Column="1" Margin="40,10,0,10" Grid.Row="1" Style="{DynamicResource LeftButtonStyle}" FontFamily="Segoe UI Symbol" Click="ok_button_Click" HorizontalAlignment="Left" Width="50"/>
+            <Button x:Uid="cancel_button" x:Name="cancel_button" Content="&#xE10A;" Grid.Column="1" HorizontalAlignment="Right" Margin="0,10,40,10" Style="{DynamicResource RightButtonStyle}" FontFamily="Segoe UI Symbol" Click="cancel_button_Click" Width="50"/>
+        </Grid>
+        <GridSplitter x:Uid="gridSplitter_Copy" x:Name="gridSplitter_Copy" HorizontalAlignment="Left" Height="1" VerticalAlignment="Top" Width="310" Background="{DynamicResource Button.Static.Border}" Grid.Row="1"/>
+        <Grid x:Uid="tablegrid" x:Name="tablegrid" HorizontalAlignment="Left" Height="297" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="288">
+            <Grid.RowDefinitions>
+                <RowDefinition x:Uid="RowDefinition_5"/>
+                <RowDefinition x:Uid="RowDefinition_6"/>
+                <RowDefinition x:Uid="RowDefinition_7"/>
+                <RowDefinition x:Uid="RowDefinition_8"/>
+                <RowDefinition x:Uid="RowDefinition_9"/>
+                <RowDefinition x:Uid="RowDefinition_10"/>
+                <RowDefinition x:Uid="RowDefinition_11"/>
+                <RowDefinition x:Uid="RowDefinition_12"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition x:Uid="ColumnDefinition_4" Width="25*"/>
+                <ColumnDefinition x:Uid="ColumnDefinition_5" Width="47*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label x:Uid="label1" x:Name="label1" Content="{DynamicResource StrUid_tag}" HorizontalAlignment="Right" VerticalAlignment="Top" HorizontalContentAlignment="Right"/>
+            <TextBox x:Uid="tag_textBox" x:Name="tag_textBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" VerticalContentAlignment="Center"  Style="{DynamicResource SearchTextBoxStyle}"/>
+            <Label x:Uid="label2" x:Name="label2" Content="{DynamicResource StrUid_category}" HorizontalAlignment="Right" Grid.Row="1" VerticalAlignment="Top" HorizontalContentAlignment="Right"/>
+            <TextBox x:Uid="cat_textBox" x:Name="cat_textBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" VerticalContentAlignment="Center"  Style="{DynamicResource SearchTextBoxStyle}"/>
+
+            <Label x:Uid="label3" x:Name="label3" Content="{DynamicResource StrUid_url}" HorizontalAlignment="Right" Grid.Row="2" VerticalAlignment="Top" HorizontalContentAlignment="Right"/>
+            <TextBox x:Uid="url_textBox" x:Name="url_textBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" VerticalContentAlignment="Center" Style="{DynamicResource SearchTextBoxStyle}"/>
+            <Label x:Uid="label4" x:Name="label4" Content="{DynamicResource StrUid_user}" HorizontalAlignment="Right" Grid.Row="3" VerticalAlignment="Top" HorizontalContentAlignment="Right"/>
+            <TextBox x:Uid="user_textBox" x:Name="user_textBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" VerticalContentAlignment="Center" Style="{DynamicResource SearchTextBoxStyle}"/>
+            <Label x:Uid="label5" x:Name="label5" Content="{DynamicResource StrUid_password}" HorizontalAlignment="Right" Grid.Row="4" HorizontalContentAlignment="Right" Margin="0,0,0,12"/>
+            <TextBox x:Uid="pwd_textBox" x:Name="pwd_textBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" VerticalContentAlignment="Center" Style="{DynamicResource SearchTextBoxStyle}"/>
+            <Label x:Uid="label6" x:Name="label6" Content="{DynamicResource StrUid_phone}" HorizontalAlignment="Right" Grid.Row="5" VerticalAlignment="Top" HorizontalContentAlignment="Right"/>
+            <TextBox x:Uid="phone_textBox" x:Name="phone_textBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Grid.Row="5" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" VerticalContentAlignment="Center" Style="{DynamicResource SearchTextBoxStyle}"/>
+            <Label x:Uid="label7" x:Name="label7" Content="{DynamicResource StrUid_mail}" HorizontalAlignment="Right" Grid.Row="6" VerticalAlignment="Top" HorizontalContentAlignment="Right"/>
+            <TextBox x:Uid="mail_textBox" x:Name="mail_textBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Grid.Row="6" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" VerticalContentAlignment="Center" Style="{DynamicResource SearchTextBoxStyle}"/>
+            <Label x:Uid="label8" x:Name="label8" Content="{DynamicResource StrUid_notes}" HorizontalAlignment="Right" Grid.Row="7" VerticalAlignment="Top" HorizontalContentAlignment="Right"/>
+            <TextBox x:Uid="notes_textBox" x:Name="notes_textBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Grid.Row="7" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" VerticalContentAlignment="Center" Style="{DynamicResource SearchTextBoxStyle}"/>
+
+
+        </Grid>
+
+
+
+    </Grid>
+
+</Page>
