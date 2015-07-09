@@ -9,7 +9,7 @@
       Title="BExport">
 
     <Grid x:Uid="Grid_1">
-        <Grid x:Uid="Grid_2" HorizontalAlignment="Left" Height="86" VerticalAlignment="Top" Width="205" Margin="10,30,0,0">
+        <Grid x:Uid="Grid_2" HorizontalAlignment="Left" Height="86" VerticalAlignment="Top" Width="205" Margin="30,50,0,0">
             <Grid.RowDefinitions>
                 <RowDefinition x:Uid="RowDefinition_1"/>
                 <RowDefinition x:Uid="RowDefinition_2"/>
@@ -21,7 +21,7 @@
         </Grid>
 
        
-        <Label x:Uid="label2" x:Name="label2" Content="{DynamicResource StrUid_exportaccount}" VerticalAlignment="Top" Height="25" Background="{DynamicResource Button.Pressed.Border}"/>
+        <Label x:Uid="label2" x:Name="label2" Content="{DynamicResource StrUid_exportaccount}" VerticalAlignment="Top" Height="25" Margin="10,10,0,0"/>
 
     </Grid>
 </Page>

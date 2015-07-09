@@ -9,31 +9,25 @@
       Title="BInit">
 
     <Grid x:Uid="Grid_1">
-        <Grid x:Uid="Grid_2" HorizontalAlignment="Left" Height="96" Margin="10,30,0,0" VerticalAlignment="Top" Width="205">
+        <Grid x:Uid="Grid_2" HorizontalAlignment="Left" Height="96" Margin="30,50,0,0" VerticalAlignment="Top" Width="254">
             <Grid.RowDefinitions>
                 <RowDefinition x:Uid="RowDefinition_1"/>
                 <RowDefinition x:Uid="RowDefinition_2"/>
                 <RowDefinition x:Uid="RowDefinition_3"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition x:Uid="ColumnDefinition_1" Width="59*"/>
-                <ColumnDefinition x:Uid="ColumnDefinition_2" Width="108*"/>
-                <ColumnDefinition x:Uid="ColumnDefinition_3" Width="38*"/>
+                <ColumnDefinition x:Uid="ColumnDefinition_1" Width="Auto" MinWidth="67"/>
+                <ColumnDefinition x:Uid="ColumnDefinition_2" Width="135*"/>
+                <ColumnDefinition x:Uid="ColumnDefinition_3" Width="52*"/>
             </Grid.ColumnDefinitions>
-            <Label x:Uid="label" x:Name="label" Content="{DynamicResource StrUid_dbpath}" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top" Height="25" Width="54"/>
-            <Label x:Uid="label1" x:Name="label1" Content="{DynamicResource StrUid_key}" HorizontalAlignment="Left" Margin="0" Grid.Row="1" VerticalAlignment="Top" Height="25" Width="40"/>
-            <TextBox x:Uid="db_textBox" x:Name="db_textBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="0" VerticalAlignment="Top" Width="105" VerticalContentAlignment="Center" Style="{DynamicResource SearchTextBoxStyle}"/>
-            <TextBox x:Uid="key_textBox" x:Name="key_textBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="0" Grid.Row="1" VerticalAlignment="Top" Width="105" VerticalContentAlignment="Center" Style="{DynamicResource SearchTextBoxStyle}"/>
+            <Label x:Uid="label" x:Name="label" Content="{DynamicResource StrUid_dbpath}" HorizontalAlignment="Right" Margin="0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Height="25"/>
+            <Label x:Uid="label1" x:Name="label1" Content="{DynamicResource StrUid_key}" HorizontalAlignment="Right" Margin="0" Grid.Row="1" VerticalAlignment="Top" HorizontalContentAlignment="Right" Height="25"/>
+            <TextBox x:Uid="db_textBox" x:Name="db_textBox" Grid.Column="1" Height="23" Margin="5,0" VerticalAlignment="Top" VerticalContentAlignment="Center" Style="{DynamicResource SearchTextBoxStyle}"/>
+            <TextBox x:Uid="key_textBox" x:Name="key_textBox" Grid.Column="1" Height="23" Margin="5,0" Grid.Row="1" VerticalAlignment="Top" VerticalContentAlignment="Center" Style="{DynamicResource SearchTextBoxStyle}"/>
             <Button x:Uid="savefile_button" x:Name="savefile_button" Content="&#xE188;" Grid.Column="2" HorizontalAlignment="Left" Margin="8,0,0,0" VerticalAlignment="Top" Width="30" Height="22" Style="{DynamicResource BaseButton}" FontFamily="Segoe UI Symbol" Click="savefile_button_Click"/>
             <Button x:Uid="start_button" x:Name="start_button" Content="&#xE105;" HorizontalAlignment="Left" Margin="0" Grid.Row="2" VerticalAlignment="Top" Width="41" Style="{DynamicResource BaseButton}" Height="25" Click="start_button_Click" FontFamily="Segoe UI Symbol"/>
         </Grid>
-
-
-        <Button x:Uid="signout_button" x:Name="sign_button" Content="&#xE126;" HorizontalAlignment="Left" Margin="10,187,0,0" VerticalAlignment="Top" Width="41" Style="{DynamicResource BaseButton}" FontFamily="Segoe UI Symbol" FontSize="16" Height="25" Click="signout_button_Click" Background="White"/>
-        <TextBlock x:Uid="textBlock" x:Name="textBlock" HorizontalAlignment="Left" Margin="10,231,0,0" TextWrapping="Wrap" Text="{DynamicResource StrUid_quitwarning}" VerticalAlignment="Top" Height="50" Width="205" Foreground="#FFEE802F" FontStyle="Italic"/>
-        <Label x:Uid="label2" x:Name="label2" Content="{DynamicResource StrUid_initdb}" VerticalAlignment="Top" Height="25" Background="{DynamicResource Button.Pressed.Border}"/>
-        <Label x:Uid="label3" x:Name="label3" Content="{DynamicResource StrUid_logouttip}" HorizontalAlignment="Left" Margin="10,156,0,0" VerticalAlignment="Top"/>
-        <Label x:Uid="label2" x:Name="label2_Copy" Content="{DynamicResource StrUid_singout}" VerticalAlignment="Top" Height="25" Background="{DynamicResource Button.Pressed.Border}" Margin="0,131,0,0"/>
+        <Label x:Uid="label2" x:Name="label2" Content="{DynamicResource StrUid_initdb}" VerticalAlignment="Top" Height="25" Margin="10,10,26,0"/>
 
     </Grid>
 </Page>

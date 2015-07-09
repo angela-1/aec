@@ -16,11 +16,11 @@
     <sys:String x:Key="StrUid_initialization">DB Config</sys:String>
 <sys:String x:Key="StrUid_changepassword">Password</sys:String>
 <sys:String x:Key="StrUid_export">Export</sys:String>
-<sys:String x:Key="StrUid_initdb">Init DataBase</sys:String>
+<sys:String x:Key="StrUid_initdb">Choose DB path and set a key</sys:String>
 <sys:String x:Key="StrUid_dbpath">DB:</sys:String>
 <sys:String x:Key="StrUid_key">Key:</sys:String>
 <sys:String x:Key="StrUid_done">Done</sys:String>
-<sys:String x:Key="StrUid_singout">Logout</sys:String>
+<!--<sys:String x:Key="StrUid_singout">Logout</sys:String>-->
 <sys:String x:Key="StrUid_singin">Sign In</sys:String>
 <sys:String x:Key="StrUid_aec">Accounts Encrypt</sys:String>
 <sys:String x:Key="StrUid_library">Library</sys:String>
@@ -35,17 +35,15 @@
     <sys:String x:Key="StrUid_langen">English</sys:String>
     <sys:String x:Key="StrUid_langzh">中文</sys:String>
     <sys:String x:Key="StrUid_chooselang">Choose UI language</sys:String>
-    <sys:String x:Key="StrUid_labellang">Language:</sys:String>
+    <!--<sys:String x:Key="StrUid_labellang">Language:</sys:String>-->
     <sys:String x:Key="StrUid_wrongkey">Wrong key</sys:String>
     <sys:String x:Key="StrUid_shutdown">ShutDown</sys:String>
     <sys:String x:Key="StrUid_encryptdb">Encrypting DB, please wait...</sys:String>
 
-    <sys:String x:Key="StrUid_quitwarning">Unless you want to throw out all the data, DO NOT click button bottom.</sys:String>
-    <sys:String x:Key="StrUid_version">1.0</sys:String>
-    <sys:String x:Key="StrUid_author">Author: ZHAO Peng</sys:String>
+      <sys:String x:Key="StrUid_version">2.0</sys:String>
+    <sys:String x:Key="StrUid_author">Copyright © 2015 hez0rs &lt;hez0rs@163.com&gt;</sys:String>
     <sys:String x:Key="StrUid_oldkeywrong">Wrong old key</sys:String>
     <sys:String x:Key="StrUid_newkeynotequal">They are different you input new key twice</sys:String>
-<sys:String x:Key="StrUid_logouttip">Remove key and connection of DB</sys:String>
     <sys:String x:Key="StrUid_sure">Are your sure to delete account ?</sys:String>
     <sys:String x:Key="StrUid_good">OK</sys:String>
     <sys:String x:Key="StrUid_cancel">Cancel</sys:String>

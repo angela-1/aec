@@ -16,11 +16,11 @@
 <sys:String x:Key="StrUid_initialization">数据库</sys:String>
 <sys:String x:Key="StrUid_changepassword">修改密码</sys:String>
 <sys:String x:Key="StrUid_export">导出</sys:String>
-<sys:String x:Key="StrUid_initdb">初始化数据库</sys:String>
+    <sys:String x:Key="StrUid_initdb">设置数据库位置和密钥</sys:String>
 <sys:String x:Key="StrUid_dbpath">数据库：</sys:String>
 <sys:String x:Key="StrUid_key">密钥：</sys:String>
 <sys:String x:Key="StrUid_done">完成</sys:String>
-<sys:String x:Key="StrUid_singout">注销</sys:String>
+<!--<sys:String x:Key="StrUid_singout">注销</sys:String>-->
 <sys:String x:Key="StrUid_singin">登入</sys:String>
 <sys:String x:Key="StrUid_aec">Accounts Encrypt</sys:String>
 <sys:String x:Key="StrUid_library">库</sys:String>
@@ -35,17 +35,16 @@
     <sys:String x:Key="StrUid_langen">English</sys:String>
     <sys:String x:Key="StrUid_langzh">中文</sys:String>
     <sys:String x:Key="StrUid_chooselang">选择界面语言</sys:String>
-    <sys:String x:Key="StrUid_labellang">语言：</sys:String>
+    <!--<sys:String x:Key="StrUid_labellang">语言：</sys:String>-->
     <sys:String x:Key="StrUid_wrongkey">密钥错误</sys:String>
     <sys:String x:Key="StrUid_shutdown">关闭</sys:String>
     <sys:String x:Key="StrUid_encryptdb">正在加密数据库，请稍候……</sys:String>
-    <sys:String x:Key="StrUid_quitwarning">除非你决定丢弃所有数据，否则不要按下这个按钮。</sys:String>
-    <sys:String x:Key="StrUid_version">1.0</sys:String>
-    <sys:String x:Key="StrUid_author">作者： 赵鹏</sys:String>
+   
+    <sys:String x:Key="StrUid_version">2.0</sys:String>
+    <sys:String x:Key="StrUid_author">版权所有 © 2015 hez0rs &lt;hez0rs@163.com&gt;</sys:String>
     <sys:String x:Key="StrUid_oldkeywrong">旧密钥错误</sys:String>
     <sys:String x:Key="StrUid_newkeynotequal">两次输入的新密码不相同</sys:String>
-    <sys:String x:Key="StrUid_logouttip">删除密钥文件，断开数据库连接</sys:String>
-    <sys:String x:Key="StrUid_sure">确定要删除账户吗?</sys:String>
+      <sys:String x:Key="StrUid_sure">确定要删除账户吗?</sys:String>
     <sys:String x:Key="StrUid_good">好</sys:String>
     <sys:String x:Key="StrUid_cancel">取消</sys:String>
     <sys:String x:Key="StrUid_warning">注意</sys:String>

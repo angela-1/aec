@@ -15,7 +15,7 @@
         </Grid.RowDefinitions>
 
 
-        <Grid Background="#FFE0E0E0" Margin="0">
+        <Grid Background="#FFF2F2F2" Margin="0">
             <Grid.RowDefinitions>
                 <RowDefinition x:Uid="RowDefinition_4"/>
             </Grid.RowDefinitions>
