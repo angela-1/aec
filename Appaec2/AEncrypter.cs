@@ -123,7 +123,7 @@ namespace Appaec2
 
 
 
-        public Boolean EncryptFile(string fname)
+        public void EncryptFile(string fname)
         {
             string resultfile = fname + "s";
 
@@ -143,12 +143,10 @@ namespace Appaec2
             encrypt(src, dst, len, key);
 
             WriteBinFile(resultfile, dst);
-            if (File.Exists(resultfile))
-            {
-                File.Delete(fname);
-                return true;
-            }
-            return false;
+
+
+            File.Delete(fname);
+
 
 
 

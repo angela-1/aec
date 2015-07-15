@@ -29,7 +29,7 @@ namespace Appaec2
 
         private void CheckDb()
         {
-            if (AStatic.DbPath != null )
+            if (AStatic.DbPath != null)
             {
 
                 DisableInit();
@@ -48,7 +48,7 @@ namespace Appaec2
 
         private void Createdbtable()
         {
-            
+
             ADbInteractive db = new ADbInteractive(AStatic.DbPath);
 
             db.CreateDb(AStatic.DbPath);
@@ -76,22 +76,22 @@ namespace Appaec2
                 AStatic.StringKey = key_textBox.Text;
                 encrypter.WriteKeyFile(key_textBox.Text);
                 encrypter.ReadKeyFile();
-                
+
                 // 3 create db
                 Createdbtable();
                 DisableInit();
 
                 // 4 envrypt db
-                if (encrypter.EncryptFile(AStatic.DbPath))
-                {
-                    Window m = Application.Current.Properties["mainwindow"] as Window;
-                    Frame main_frame = m.FindName("main_frame") as Frame;
-                    main_frame.Navigate(new ASignin());
+                encrypter.EncryptFile(AStatic.DbPath);
 
-                }
-                
+                Window m = Application.Current.Properties["mainwindow"] as Window;
+                Frame main_frame = m.FindName("main_frame") as Frame;
+                main_frame.Navigate(new ASignin());
 
-               
+
+
+
+
 
 
             }
@@ -117,20 +117,20 @@ namespace Appaec2
             if (File.Exists(AStatic.KeyPath))
             {
                 File.Delete(AStatic.KeyPath);
-                
+
             }
             //AUtils t = new AUtils();
-            
+
             //string s = t.GetSpells("Facebook", false);
             //MessageBox.Show(s, "see");
 
             string dirpath = System.Environment.CurrentDirectory;
-            AStatic.WritePrivateProfileString("aec", "dbpath", "", 
+            AStatic.WritePrivateProfileString("aec", "dbpath", "",
                 dirpath + "\\" + AStatic.ConfigPath);
 
             Application.Current.Shutdown();
 
-            
+
         }
 
         private void savefile_button_Click(object sender, RoutedEventArgs e)
@@ -151,7 +151,7 @@ namespace Appaec2
                 filename = dlg.FileName;
                 db_textBox.Text = filename;
             }
-  
+
         }
     }
 }

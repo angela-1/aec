@@ -144,19 +144,63 @@ namespace Appaec2
             }
         }
 
- 
+
+        private Boolean IsFileInUse(string fname)
+        {
+            bool inUse = true;
+
+            FileStream fs = null;
+            try
+            {
+                fs = new FileStream(fname, FileMode.Open, FileAccess.Read, FileShare.None);
+                inUse = false;
+            }
+            catch
+            {
+
+            }
+            finally
+            {
+                if (fs != null)
+                {
+                    fs.Close();
+                }
+            }
+            return inUse;           //true表示正在使用,false没有使用
+
+
+
+
+
+        }
 
         public void WaitingEncrypt()
         {
             System.Threading.Thread.Sleep(2000);
+
             
-            AEncrypter encrypter = new AEncrypter();
+
+
             if (File.Exists(AStatic.DbPath))
             {
-                encrypter.EncryptFile(AStatic.DbPath);
+
+
+                while (true)
+                {
+                    
+                    if (!IsFileInUse(AStatic.DbPath))
+                    {
+                        AEncrypter encrypter = new AEncrypter();
+                        encrypter.EncryptFile(AStatic.DbPath);
+                        AStatic.IsRunning = false;
+                        break;
+                    }
+                    
+                }
+
             }
         }
 
- 
+
     }
 }

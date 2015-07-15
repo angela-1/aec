@@ -40,8 +40,8 @@ namespace Appaec2
             using (SQLiteConnection connection = new SQLiteConnection(connectionString))
             {
                 connection.Open();
-                using (DbTransaction transaction = connection.BeginTransaction())
-                {
+               // using (DbTransaction transaction = connection.BeginTransaction())
+               // {
                     using (SQLiteCommand command = new SQLiteCommand(connection))
                     {
                         command.CommandText = sql;
@@ -51,8 +51,8 @@ namespace Appaec2
                         }
                         affectedRows = command.ExecuteNonQuery();
                     }
-                    transaction.Commit();
-                }
+                    //transaction.Commit();
+              //  }
             }
             return affectedRows;
         }

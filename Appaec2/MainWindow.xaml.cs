@@ -42,8 +42,12 @@ namespace Appaec2
             min_button.IsEnabled = false;
 
             AUtils t = new AUtils();
+            //t.WaitingEncrypt();
+
             Thread ec = new Thread(t.WaitingEncrypt);
             ec.Start();
+
+            //Application.Current.Shutdown();
 
         }
 

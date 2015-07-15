@@ -9,7 +9,7 @@
       Title="AClosing">
     <Grid>
 
-          <Grid HorizontalAlignment="Left" Height="160" VerticalAlignment="Top" Width="288" Margin="10,104,0,0">
+        <Grid HorizontalAlignment="Left" Height="160" VerticalAlignment="Top" Width="288" Margin="10,104,0,0">
             <Grid.RowDefinitions>
                 <RowDefinition x:Uid="RowDefinition_5"/>
                 <RowDefinition/>
@@ -18,9 +18,9 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition x:Uid="ColumnDefinition_5" Width="49*"/>
             </Grid.ColumnDefinitions>
-            <Button x:Uid="exit_button" x:Name="exit_button" Content="{DynamicResource StrUid_shutdown}" HorizontalAlignment="Left" Margin="39,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="200" Style="{DynamicResource BaseButton}" Click="exit_button_Click" Height="25" IsEnabled="False"/>
-            <ProgressBar x:Name="pb" HorizontalAlignment="Left" Height="10" Margin="87,15,0,0" VerticalAlignment="Top" Width="100" ValueChanged="pb_ValueChanged" Grid.Row="1"/>
-            <Label Content="{DynamicResource StrUid_encryptdb}" HorizontalAlignment="Left" Margin="49,21,0,0" VerticalAlignment="Top" Width="202"/>
+            <Button x:Uid="exit_button" x:Name="exit_button" Content="{DynamicResource StrUid_shutdown}" HorizontalAlignment="Center" Margin="0,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="128" Style="{DynamicResource BaseButton}" Click="exit_button_Click" Height="25" IsEnabled="False"/>
+            <ProgressBar x:Name="pb" HorizontalAlignment="Center" Height="10" Margin="0,15,0,0" VerticalAlignment="Top" Width="100" ValueChanged="pb_ValueChanged" Grid.Row="1"/>
+            <Label Content="{DynamicResource StrUid_encryptdb}" HorizontalAlignment="Center" Margin="0,21,0,0" VerticalAlignment="Top"/>
         </Grid>
 
     </Grid>

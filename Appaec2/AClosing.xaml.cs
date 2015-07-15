@@ -30,7 +30,6 @@ namespace Appaec2
             DoubleAnimation doubleanimation = new DoubleAnimation(200.0, duration);
             pb.BeginAnimation(ProgressBar.ValueProperty, doubleanimation);
 
-            
 
         }
 
@@ -41,8 +40,10 @@ namespace Appaec2
 
         private void pb_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            if (pb.Value == 100.0)
+            //if (pb.Value == 100.0)
+            if (!AStatic.IsRunning)
             {
+                pb.Value = 100.0;
                 exit_button.IsEnabled = true;
             }
         }
