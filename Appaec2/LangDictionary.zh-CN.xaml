@@ -49,4 +49,13 @@
     <sys:String x:Key="StrUid_cancel">取消</sys:String>
     <sys:String x:Key="StrUid_warning">注意</sys:String>
     <sys:String x:Key="StrUid_noresult">没有找到</sys:String>
+    <sys:String x:Key="StrTip_inputkey">输入密钥</sys:String>
+    <sys:String x:Key="StrTip_new">新建账户</sys:String>
+    <sys:String x:Key="StrTip_set">设置</sys:String>
+    <sys:String x:Key="StrTip_search">查询关键词</sys:String>
+    <sys:String x:Key="StrTip_back">返回主页面</sys:String>
+    <sys:String x:Key="StrTip_dbpath">选择数据库路径</sys:String>
+    <sys:String x:Key="StrTip_start">保存数据库</sys:String>
+    <sys:String x:Key="StrTip_update">更新账户</sys:String>
+    <sys:String x:Key="StrTip_del">删除账户</sys:String>
 </ResourceDictionary>

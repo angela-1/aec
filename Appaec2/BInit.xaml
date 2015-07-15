@@ -24,8 +24,8 @@
             <Label x:Uid="label1" x:Name="label1" Content="{DynamicResource StrUid_key}" HorizontalAlignment="Right" Margin="0" Grid.Row="1" VerticalAlignment="Top" HorizontalContentAlignment="Right" Height="25"/>
             <TextBox x:Uid="db_textBox" x:Name="db_textBox" Grid.Column="1" Height="23" Margin="5,0" VerticalAlignment="Top" VerticalContentAlignment="Center" Style="{DynamicResource SearchTextBoxStyle}"/>
             <TextBox x:Uid="key_textBox" x:Name="key_textBox" Grid.Column="1" Height="23" Margin="5,0" Grid.Row="1" VerticalAlignment="Top" VerticalContentAlignment="Center" Style="{DynamicResource SearchTextBoxStyle}"/>
-            <Button x:Uid="savefile_button" x:Name="savefile_button" Content="&#xE188;" Grid.Column="2" HorizontalAlignment="Left" Margin="8,0,0,0" VerticalAlignment="Top" Width="30" Height="22" Style="{DynamicResource BaseButton}" FontFamily="Segoe UI Symbol" Click="savefile_button_Click"/>
-            <Button x:Uid="start_button" x:Name="start_button" Content="&#xE105;" HorizontalAlignment="Left" Margin="0" Grid.Row="2" VerticalAlignment="Top" Width="41" Style="{DynamicResource BaseButton}" Height="25" Click="start_button_Click" FontFamily="Segoe UI Symbol"/>
+            <Button x:Uid="savefile_button" x:Name="savefile_button" Content="&#xE188;" Grid.Column="2" HorizontalAlignment="Left" Margin="8,0,0,0" VerticalAlignment="Top" Width="30" Height="22" Style="{DynamicResource BaseButton}" FontFamily="Segoe UI Symbol" Click="savefile_button_Click" ToolTip="{DynamicResource StrTip_dbpath}"/>
+            <Button x:Uid="start_button" x:Name="start_button" Content="&#xE105;" HorizontalAlignment="Left" Margin="0" Grid.Row="2" VerticalAlignment="Top" Width="41" Style="{DynamicResource BaseButton}" Height="25" Click="start_button_Click" FontFamily="Segoe UI Symbol" ToolTip="{DynamicResource StrTip_start}"/>
         </Grid>
         <Label x:Uid="label2" x:Name="label2" Content="{DynamicResource StrUid_initdb}" VerticalAlignment="Top" Height="25" Margin="10,10,26,0"/>
 

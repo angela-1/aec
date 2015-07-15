@@ -48,5 +48,13 @@
     <sys:String x:Key="StrUid_good">OK</sys:String>
     <sys:String x:Key="StrUid_cancel">Cancel</sys:String>
     <sys:String x:Key="StrUid_warning">Warning</sys:String>
-    <sys:String x:Key="StrUid_noresult">No result for</sys:String>
+    <sys:String x:Key="StrTip_inputkey">Input key</sys:String>
+    <sys:String x:Key="StrTip_new">New account</sys:String>
+    <sys:String x:Key="StrTip_set">Settings</sys:String>
+    <sys:String x:Key="StrTip_search">Search keywords</sys:String>
+    <sys:String x:Key="StrTip_back">Back to main page</sys:String>
+    <sys:String x:Key="StrTip_dbpath">Choose DB path</sys:String>
+    <sys:String x:Key="StrTip_start">Save DataBase</sys:String>
+    <sys:String x:Key="StrTip_update">Update account</sys:String>
+    <sys:String x:Key="StrTip_del">Delete account</sys:String>
 </ResourceDictionary>

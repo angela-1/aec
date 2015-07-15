@@ -31,7 +31,7 @@
                 <RadioButton x:Name="lang_radioButton" Content="{DynamicResource StrUid_language}" Style="{DynamicResource ToggleButtonStyle}" GroupName="aa" HorizontalAlignment="Left" d:LayoutOverrides="VerticalAlignment" Checked="lang_radioButton_Checked"/>
                 <RadioButton x:Name="about_radioButton" Content="{DynamicResource StrUid_about}" Style="{DynamicResource ToggleButtonStyle}" GroupName="aa" HorizontalAlignment="Left" d:LayoutOverrides="VerticalAlignment" Checked="about_radioButton_Checked"/>
             </StackPanel>
-            <Button x:Name="back_button" Content="&#xE09E;" HorizontalAlignment="Left" Margin="5,10,0,10" Width="38" Style="{DynamicResource BaseButton}" FontFamily="Segoe UI Symbol" Click="back_button_Click"/>
+            <Button x:Name="back_button" Content="&#xE09E;" HorizontalAlignment="Left" Margin="5,10,0,10" Width="38" Style="{DynamicResource BaseButton}" FontFamily="Segoe UI Symbol" Click="back_button_Click" ToolTip="{DynamicResource StrTip_back}"/>
         </Grid>
         <Frame x:Uid="frame" x:Name="frame" Content="Frame" HorizontalAlignment="Left" Height="291" Margin="0,1,0,0" Grid.Row="1" VerticalAlignment="Top" Width="308" NavigationUIVisibility="Hidden" Background="White"/>
         <GridSplitter x:Uid="gridSplitter_Copy" x:Name="gridSplitter_Copy" HorizontalAlignment="Left" Height="1" VerticalAlignment="Top" Width="310" Background="{DynamicResource Button.Static.Border}" Margin="0,-0.418,-2,0" Grid.Row="1"/>

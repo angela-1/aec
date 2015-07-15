@@ -14,10 +14,10 @@
             <RowDefinition Height="333*"/>
         </Grid.RowDefinitions>
         <Grid HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="308" Background="#FFE0E0E0">
-            <Button x:Name="button" Content="&#xE09E;" HorizontalAlignment="Left" Margin="5,10" Width="38" Style="{DynamicResource BaseButton}" FontFamily="Segoe UI Symbol" Click="button_Click"/>
+            <Button x:Name="button" Content="&#xE09E;" HorizontalAlignment="Left" Margin="5,10" Width="38" Style="{DynamicResource BaseButton}" FontFamily="Segoe UI Symbol" Click="button_Click" ToolTip="{DynamicResource StrTip_back}"/>
             <StackPanel Margin="110,10,0,10" Orientation="Horizontal" HorizontalAlignment="Left">
-                <Button x:Name="edit_button" Content="&#xE104;" HorizontalAlignment="Left" Width="38" Style="{DynamicResource LeftButtonStyle}" FontFamily="Segoe UI Symbol" Click="edit_button_Click"/>
-                <Button x:Name="del_button" Content="&#xE107;" HorizontalAlignment="Left" Width="38" Style="{DynamicResource RightButtonStyle}" FontFamily="Segoe UI Symbol" Click="del_button_Click"/>
+                <Button x:Name="edit_button" Content="&#xE104;" HorizontalAlignment="Left" Width="38" Style="{DynamicResource LeftButtonStyle}" FontFamily="Segoe UI Symbol" Click="edit_button_Click" ToolTip="{DynamicResource StrTip_update}"/>
+                <Button x:Name="del_button" Content="&#xE107;" HorizontalAlignment="Left" Width="38" Style="{DynamicResource RightButtonStyle}" FontFamily="Segoe UI Symbol" Click="del_button_Click" ToolTip="{DynamicResource StrTip_del}"/>
             </StackPanel>
         </Grid>
         <GridSplitter x:Name="gridSplitter" HorizontalAlignment="Left" Height="1" Grid.Row="1" VerticalAlignment="Top" Width="308" Background="#FFC2C2C2"/>
