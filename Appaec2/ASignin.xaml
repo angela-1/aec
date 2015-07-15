@@ -17,7 +17,7 @@
                 <RowDefinition x:Uid="RowDefinition_5" Height="45*"/>
             </Grid.RowDefinitions>
             <TextBox x:Uid="key_textBox" x:Name="key_textBox" HorizontalAlignment="Center" Margin="0,1,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="128" VerticalContentAlignment="Center" KeyUp="key_textBox_KeyUp"  Style="{DynamicResource SearchTextBoxStyle}" Grid.Row="1" Height="28" HorizontalContentAlignment="Center" ToolTip="{DynamicResource StrTip_inputkey}"/>
-            <Button x:Uid="signin_button" x:Name="signin_button" Content="{DynamicResource StrUid_singin}" HorizontalAlignment="Center" Margin="0,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="128" Click="signin_button_Click" Height="28" Style="{DynamicResource BaseButton}"/>
+            <Button x:Uid="signin_button" x:Name="signin_button" Content="{DynamicResource StrUid_signin}" HorizontalAlignment="Center" Margin="0,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="128" Click="signin_button_Click" Height="28" Style="{DynamicResource BaseButton}"/>
             <Label x:Name="signinlabel" Content="" HorizontalAlignment="Center" Margin="0,34,0,0" VerticalAlignment="Top" Foreground="#FFEE802F" FontStyle="Italic" Grid.Row="1" Height="25" Width="128" Padding="0"/>
             <Image x:Name="image" HorizontalAlignment="Center" Height="70" Margin="0" VerticalAlignment="Top" Width="75" Source="aecicon.png"/>
         </Grid>

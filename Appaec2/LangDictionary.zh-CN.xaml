@@ -21,7 +21,7 @@
 <sys:String x:Key="StrUid_key">密钥：</sys:String>
 <sys:String x:Key="StrUid_done">完成</sys:String>
 <!--<sys:String x:Key="StrUid_singout">注销</sys:String>-->
-<sys:String x:Key="StrUid_singin">登入</sys:String>
+    <sys:String x:Key="StrUid_signin">登入</sys:String>
 <sys:String x:Key="StrUid_aec">Accounts Encrypt</sys:String>
 <sys:String x:Key="StrUid_library">库</sys:String>
 <sys:String x:Key="StrUid_config">设置</sys:String>
@@ -29,7 +29,9 @@
 <sys:String x:Key="StrUid_newkey">新密码：</sys:String>
 <sys:String x:Key="StrUid_confirm">确认：</sys:String>
     <sys:String x:Key="StrUid_exportaccount">导出账户</sys:String>
-    <sys:String x:Key="StrUid_account">账户</sys:String>
+    <sys:String x:Key="StrUid_newaccount">新账户</sys:String>
+    <sys:String x:Key="StrUid_account">账户信息</sys:String>
+    <sys:String x:Key="StrUid_updateaccount">更新账户</sys:String>
     <sys:String x:Key="StrUid_language">语言</sys:String>
     <sys:String x:Key="StrUid_about">关于</sys:String>
     <sys:String x:Key="StrUid_langen">English</sys:String>

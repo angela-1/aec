@@ -29,8 +29,16 @@ namespace Appaec2
             this.tag = tag;
             InitializeComponent();
             ShowResult();
+
+            InitUi();
         }
 
+
+        private void InitUi()
+        {
+            MainWindow m = Application.Current.Properties["mainwindow"] as MainWindow;
+            m.SetTitle(FindResource("StrUid_account") as string);
+        }
 
         private void ShowResult()
         {
@@ -75,6 +83,7 @@ namespace Appaec2
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
+
             NavigationService.Navigate(new Uri("AHome.xaml", UriKind.Relative));
         }
 

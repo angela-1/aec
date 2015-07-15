@@ -14,7 +14,7 @@
             <RowDefinition x:Uid="RowDefinition_2" Height="333*"/>
         </Grid.RowDefinitions>
 
-        <Grid x:Uid="titlegrid" x:Name="titlegrid" Background="#FFF2F2F2" MouseLeftButtonDown="Grid_MouseLeftButtonDown">
+        <Grid x:Uid="titlegrid" x:Name="titlegrid" Background="#FFF2F2F2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition x:Uid="ColumnDefinition_1" Width="67*"/>
                 <ColumnDefinition x:Uid="ColumnDefinition_2" Width="182*"/>

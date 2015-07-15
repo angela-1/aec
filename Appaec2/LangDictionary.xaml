@@ -21,7 +21,7 @@
 <sys:String x:Key="StrUid_key">Key:</sys:String>
 <sys:String x:Key="StrUid_done">Done</sys:String>
 <!--<sys:String x:Key="StrUid_singout">Logout</sys:String>-->
-<sys:String x:Key="StrUid_singin">Sign In</sys:String>
+<sys:String x:Key="StrUid_signin">Sign In</sys:String>
 <sys:String x:Key="StrUid_aec">Accounts Encrypt</sys:String>
 <sys:String x:Key="StrUid_library">Library</sys:String>
 <sys:String x:Key="StrUid_config">Config</sys:String>
@@ -29,7 +29,9 @@
 <sys:String x:Key="StrUid_newkey">New key:</sys:String>
 <sys:String x:Key="StrUid_confirm">Confirm:</sys:String>
 <sys:String x:Key="StrUid_exportaccount">Export Accounts</sys:String>
-    <sys:String x:Key="StrUid_account">Account</sys:String>
+    <sys:String x:Key="StrUid_newaccount">New Account</sys:String>
+    <sys:String x:Key="StrUid_account">Account Detial</sys:String>
+    <sys:String x:Key="StrUid_updateaccount">Update Detial</sys:String>
     <sys:String x:Key="StrUid_language">Language</sys:String>
     <sys:String x:Key="StrUid_about">About</sys:String>
     <sys:String x:Key="StrUid_langen">English</sys:String>

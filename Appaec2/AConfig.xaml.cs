@@ -26,9 +26,16 @@ namespace Appaec2
             InitializeComponent();
 
             ShowInit();
+
+            InitUi();
         }
 
 
+        private void InitUi()
+        {
+            MainWindow m = Application.Current.Properties["mainwindow"] as MainWindow;
+            m.SetTitle(FindResource("StrUid_config") as string);
+        }
 
 
         private void ShowInit()
@@ -71,6 +78,7 @@ namespace Appaec2
 
         private void back_button_Click(object sender, RoutedEventArgs e)
         {
+
             NavigationService.Navigate(new Uri("AHome.xaml", UriKind.Relative));
         }
     }

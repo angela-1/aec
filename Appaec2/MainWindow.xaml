@@ -21,6 +21,7 @@
             <GridSplitter x:Name="gridSplitter" HorizontalAlignment="Left" Height="1" Grid.Row="1" VerticalAlignment="Top" Width="308" Background="#FFC2C2C2"/>
             <Rectangle Fill="White" HorizontalAlignment="Left" Height="21" Margin="0,361,0,0" Grid.Row="1" VerticalAlignment="Top" Width="308" RadiusX="5" RadiusY="5"/>
             <Frame x:Name="main_frame" Content="Frame" HorizontalAlignment="Left" Height="376" Grid.Row="1" VerticalAlignment="Top" Width="308" Margin="0,1,0,0" NavigationUIVisibility="Hidden" Background="White"/>
+            <Label x:Name="title_label" Content="Account EnCrypt" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
 
         </Grid>
     </Border>

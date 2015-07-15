@@ -31,6 +31,15 @@ namespace Appaec2
 
         }
 
+
+
+        public void SetTitle(string title)
+        {
+            title_label.Content = title;
+
+        }
+
+
         private void close_button_Click(object sender, RoutedEventArgs e)
         {
 
@@ -55,6 +64,10 @@ namespace Appaec2
         {
            WindowState = WindowState.Minimized;
         }
+
+
+
+
 
         private void titleborder_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {

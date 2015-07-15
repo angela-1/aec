@@ -29,7 +29,7 @@ namespace Appaec2
             InitializeComponent();
 
             BindingVar(null);
-
+            InitUi("StrUid_newaccount");
         }
 
         public BAccount(string t)
@@ -37,9 +37,16 @@ namespace Appaec2
             InitializeComponent();
 
             BindingVar(t);
-
+            InitUi("StrUid_updateaccount");
             // can not modify tag
             tag_textBox.IsEnabled = false;
+        }
+
+
+        private void InitUi(string title)
+        {
+            MainWindow m = Application.Current.Properties["mainwindow"] as MainWindow;
+            m.SetTitle(FindResource(title) as string);
         }
 
 
@@ -72,40 +79,9 @@ namespace Appaec2
 
 
 
-        private void Grid_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            // 获取鼠标相对标题栏位置
-            Point position = e.GetPosition(titlegrid);
-
-            // 如果鼠标位置在标题栏内，允许拖动
-            if (e.LeftButton == MouseButtonState.Pressed)
-            {
-                if (position.X >= 0 && position.X < titlegrid.ActualWidth && position.Y >= 0 && position.Y < titlegrid.ActualHeight)
-                {
-                    Window m = Application.Current.Properties["mainwindow"] as Window;
-                    m.DragMove();
-                }
-            }
-        }
-
-        private void close_button_Click(object sender, RoutedEventArgs e)
-        {
-            NavigationService.Navigate(new Uri("AClosing.xaml", UriKind.Relative));
-
-            AUtils t = new AUtils();
-            Thread ec = new Thread(t.WaitingEncrypt);
-            ec.Start();
 
 
-        }
-
-        private void min_button_Click(object sender, RoutedEventArgs e)
-        {
-            Window m = Application.Current.Properties["mainwindow"] as Window;
-
-            m.WindowState = WindowState.Minimized;
-
-        }
+   
 
         private void cancel_button_Click(object sender, RoutedEventArgs e)
         {

@@ -44,8 +44,20 @@ namespace Appaec2
 
             search_textBox.Focus();
 
+            InitUi();
+
             InitClass();
 
+            
+
+        }
+
+
+
+        private void InitUi()
+        {
+            MainWindow m = Application.Current.Properties["mainwindow"] as MainWindow;
+            m.SetTitle(FindResource("StrUid_aec") as string);
         }
 
         /// <summary>
@@ -62,7 +74,7 @@ namespace Appaec2
                 if (AStatic.IsRunning == false)
                 {
 
-                    Window m = Application.Current.Properties["mainwindow"] as Window;
+                    MainWindow m = Application.Current.Properties["mainwindow"] as MainWindow;
                     Frame main_frame = m.FindName("main_frame") as Frame;
                     main_frame.Navigate(new ASignin());
                 }
@@ -118,6 +130,7 @@ namespace Appaec2
 
         private void set_button_Click(object sender, RoutedEventArgs e)
         {
+
             NavigationService.Navigate(new Uri("AConfig.xaml", UriKind.Relative));
 
         }
@@ -265,6 +278,7 @@ namespace Appaec2
                     search_textBox.Text = comList[comViewModel.Selectedindex].Tag;
 
                     comList.Clear();
+
 
                     AResult result = new AResult(search_textBox.Text);
                     NavigationService.Navigate(result);

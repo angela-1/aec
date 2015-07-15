@@ -25,6 +25,15 @@ namespace Appaec2
         {
             InitializeComponent();
             key_textBox.Focus();
+
+            InitUi();
+        }
+
+
+        private void InitUi()
+        {
+            MainWindow m = Application.Current.Properties["mainwindow"] as MainWindow;
+            m.SetTitle(FindResource("StrUid_signin") as string);
         }
 
         private void signin_button_Click(object sender, RoutedEventArgs e)
@@ -41,6 +50,7 @@ namespace Appaec2
                 {
                     AStatic.IsRunning = true;
                     t.ReadCatalog();
+
                     NavigationService.Navigate(new Uri("AHome.xaml", UriKind.Relative));
 
                 }
