@@ -78,9 +78,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="aes.h" />
     <ClInclude Include="libencrypt.h" />
     <ClInclude Include="md5.h" />
@@ -101,6 +98,9 @@
   </ItemGroup>
   <ItemGroup>
     <Library Include="libeay32.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
