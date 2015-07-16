@@ -76,7 +76,7 @@ Account EnCrypt 是一个注重搜索的账户管理器，支持中文、英文�
 
 ## 协议
 
-Account EnCrypt 在 [GPL v3][gpl] 下发布。
+Account EnCrypt 在 [MIT][mit] 下发布。
 
 
-[gpl]: http://www.gnu.org/licenses/gpl.html
+[mit]: http://opensource.org/licenses/MIT
