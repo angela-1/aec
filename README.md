@@ -66,12 +66,13 @@ Account EnCrypt 是一个注重搜索的账户管理器，支持中文、英文�
 
 ## 附加信息
 
-外部库的版本：
+外部库：
 
 - OpenSSL 1.0.2a
 
 - SQLite sqlite-netFx451-binary-bundle-Win32-2013-1.0.97.0
 
+- GBK 汉字拼音码表
 
 ## 协议
 
