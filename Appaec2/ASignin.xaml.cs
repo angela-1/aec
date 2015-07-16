@@ -84,6 +84,9 @@ namespace Appaec2
             }
         }
 
-
+        private void key_textBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            signinlabel.Content = "";
+        }
     }
 }

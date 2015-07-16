@@ -246,7 +246,7 @@
     <Resource Include="aec.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Appaec.Openssl.dll">
+    <Content Include="libencrypt.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="share\head.html">

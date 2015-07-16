@@ -27,13 +27,13 @@ namespace Appaec2
 
 
 
-        [DllImport("Appaec.Openssl.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("libencrypt.dll", CallingConvention = CallingConvention.Cdecl)]
         private static extern int digest_md5(string buf, byte[] md);
 
-        [DllImport("Appaec.Openssl.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("libencrypt.dll", CallingConvention = CallingConvention.Cdecl)]
         private static extern int encrypt(byte[] src, byte[] dst, int len, byte[] key);
 
-        [DllImport("Appaec.Openssl.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("libencrypt.dll", CallingConvention = CallingConvention.Cdecl)]
         private static extern int decrypt(byte[] src, byte[] dst, int len, byte[] key);
 
 
