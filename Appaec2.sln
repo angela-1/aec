@@ -13,6 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "screenshots", "screenshots", "{30EF220F-D882-44E9-B64B-4F5D3CD7026C}"
+	ProjectSection(SolutionItems) = preProject
+		screenshots\screenshot.gif = screenshots\screenshot.gif
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,5 +43,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30EF220F-D882-44E9-B64B-4F5D3CD7026C} = {74FAE481-E58F-42A4-83E5-DBFDB2FC5953}
 	EndGlobalSection
 EndGlobal
